@@ -506,3 +506,13 @@ section {
 .beige {
     background: #F5F9E9;
 }
+
+.screen {
+    margin: 50px 200px;
+}
+
+.screen .card{
+    width: 300px;
+    height: 400px;
+    background-color: #FEFEFE;
+}
