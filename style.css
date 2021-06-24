@@ -184,6 +184,28 @@ main {
     opacity: 0;
 }
 
+.fadeRight {
+    animation-name: fadeRightAnime;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeRightAnime {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fadeRightTrigger {
+    opacity: 0;
+}
+
 /* その場で */
 
 .fadeIn {
@@ -237,16 +259,25 @@ main {
     position: relative;
     clear: both;
     margin: 98px 130px 0px 130px;
+    
 }
 .col-9 h1{
+    display: flex;
     position: absolute;
-    width: 280px;
-    height: 350px;
-    background-color: rgba(245,249,233,0.8);
-    color: #493B2A;
-    font-size: 92px;
-    margin: 25px auto 0px 800px ;
-    padding: 200px 20px 0px;
+    width: 350px;
+    height: 90px;
+    background-color: #DC965A;
+    color: #F5F9E9;
+    font-size: 64px;
+    margin: 400px auto 0px 850px ;
+    padding: 10px 20px 20px;
+    border-radius: 1.5px;
+}
+
+.col-9 h1 p{
+    font-size: 48px;
+    margin-bottom: 0px;
+    margin-top: auto;
 }
 
 .col-6 {
@@ -369,7 +400,7 @@ dd a {
     font-size: 18px;
 }
 
-section {
+h1 {
     text-align: center;
     width: 800px;
     line-height: 1;
