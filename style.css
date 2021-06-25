@@ -574,7 +574,7 @@ h1 {
     padding: 10px 0px;
     margin: 20px;
     width: 28%;
-    height: 350px;
+    max-height: 50%;
     background-color: #FEFEFE;
     border-style: dotted;
     border-width: 5px;
@@ -585,7 +585,7 @@ h1 {
 
 .screen .card img {
     width: 68%;
-    margin: 10px auto;
+    margin: 30px auto;
 }
 
 .screen .card img.side {
@@ -598,6 +598,7 @@ h1 {
     margin: 10px auto 0px;
     font-size: 36px;
     color: #493B2A;
+    line-height: 1em;
 }
 
 .screen .card h3 {
