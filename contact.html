@@ -16,8 +16,18 @@
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="techneko.js"></script>
     <main>
-        <section>問い合わせ</section>
-
+        <h1>問い合わせ</h1>
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfQrI1_RpZurag6w3NHX1hL9rNxFDfU-nib_fhyqe8hxmfthQ/formResponse"　method="post" target="hidden_iframe" onsubmit="submitted=true;">
+            <label for="name">名前</label>
+            <input id="name" type="text" name="entry.407086611" placeholder="坂本猫太郎">
+            <label for="email">メールアドレス</label>
+            <input id="email" type="text" name="entry.1464710454" placeholder="example@mail.co.jp" required>
+            <label for="msg">問い合わせ内容</label>
+            <textarea id="msg" name="entry.1825313816" placeholder="お気軽にお問い合わせください。" required></textarea>
+            <button type="submit" name="button" value="送信">送信する</button>
+          </form>
+          <script type="text/javascript">var submitted=false;</script>
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
 
 
     </main>
@@ -31,7 +41,7 @@
             <li><a href="activity.html"><span>活動内容</span></a></li>
             <li><a href="group.html"><span>団体紹介</span></a></li>
             <li><a href="cat.html"><span>猫紹介</span></a></li>
-            <li><a href=""><span>寄付</span></a></li>
+            <li><a href="donation.html"><span>寄付</span></a></li>
             <li><a href="https://pando.life/standbycats"><span>活動記録</span></a></li>
             <li><a href="contact.html" class="current"><span>問い合わせ</span></a></li>
         </ul>
