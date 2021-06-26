@@ -30,7 +30,6 @@ body {
     position: relative;
     overflow-x: hidden;
     font-family: 'Kiwi Maru', serif;
-    ;
 }
 
 nav.titleimage {
@@ -53,12 +52,13 @@ img.logo {
 
 img.techneko {
     display: flex;
-    width: 55%;
+    width: 17vw;
     max-width: 400px;
 }
 
 .container {
-    margin-left: 70px;
+    margin-left: auto;
+    margin-right: 20px;
     width: auto;
 }
 
@@ -87,7 +87,7 @@ nav li {
 
 nav a {
     height: 20px;
-    width: 80px;
+    width: 5.8vw;
     position: relative;
     display: table-cell;
     padding: 8px 16px;
@@ -95,8 +95,8 @@ nav a {
     color: #DC965A;
     background: #DC965A;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: Medium;
+    font-size: 1.15vw;
+    font-weight: medium;
     line-height: 2.0em;
     -webkit-transition: .8s;
     transition: .8s;
@@ -136,15 +136,13 @@ nav a::after {
     right: 0;
 }
 
-nav a:hover::before, 
-nav a:hover::after {
+nav a:hover::before, nav a:hover::after {
     width: 0;
     background: #F5F9E9;
     border-radius: 5px;
 }
 
-nav a.current:hover::before, 
-nav a.current:hover::after {
+nav a.current:hover::before, nav a.current:hover::after {
     background: #F5F9E9;
 }
 
@@ -260,7 +258,8 @@ main {
     clear: both;
     margin: 12vmin 130px 0vw;
 }
-.col-9 h1{
+
+.col-9 h1 {
     display: flex;
     position: absolute;
     width: 25vw;
@@ -268,12 +267,12 @@ main {
     background-color: #DC965A;
     color: #F5F9E9;
     font-size: 5vw;
-    margin: 23vw auto 6vw 60vw ;
+    margin: 23vw auto 6vw 60vw;
     padding: 1.2vw;
     border-radius: 1.5px;
 }
 
-.col-9 h1 p{
+.col-9 h1 p {
     font-size: 3vw;
     margin-bottom: 1.2vw;
     margin-top: auto;
@@ -281,33 +280,33 @@ main {
 
 .col-6 {
     background: #FEFEFE;
-    height: 610px;
+    height: 38vw;
     text-align: center;
-    padding: 5px 0px 0px;
-
+    padding-top: 1vw;
 }
 
 .col-6 img {
-    width: 200px;
+    width: 18vw;
 }
 
 .col-6 h1.title {
     line-height: 1;
-    font-size: 72px;
     color: #DC965A;
     font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 5vw;
 }
 
 .col-6 p {
     color: #493B2A;
-    font-size: 28px;
-    width: 600px;
+    font-size: 2vw;
+    width: 50vw;
     overflow-wrap: break-word;
-    margin: 30px auto 10px;
+    margin: 25px auto 5.5vw;
 }
 
 .col-5 {
-    margin: 50px 150px 0px 150px;
+    margin: 50px 0px 0px;
     background: #F5F9E9;
     min-height: 300px;
     text-align: center;
@@ -328,20 +327,21 @@ main {
     margin: auto;
     color: #493B2A;
     font-size: 28px;
-    width: 600px;
     margin-bottom: 5px;
 }
 
 .info {
     display: flex;
+    margin: 0px 16vw;
 }
 
 dl {
     overflow: auto;
-    width: 480px;
-    height: 320px;
-    margin: 50px 20px 0px 20px;
-    padding: 0px 30px 30px 30px;
+    width: 47%;
+    height: 330px;
+    margin: 50px 0px;
+    margin-right: 1vw;
+    padding: 10px 0px 10px 20px;
     background-color: #FEFEFE;
     border-radius: 10px;
 }
@@ -357,8 +357,8 @@ dd a {
 
 .sidebar {
     margin-top: 50px;
-    width: 550px;
-    height: 350px;
+    margin-left: 1vw;
+    width: 48.5%;
     background: #F5F9E9;
     color: #493B2A;
 }
@@ -395,12 +395,12 @@ dd a {
 
 h1 {
     text-align: center;
-    width: 800px;
+    width: 35vw;
     line-height: 1;
-    font-size: 72px;
+    font-size: 5.5vw;
     color: #DC965A;
     font-weight: bold;
-    margin: 130px auto 50px;
+    margin: 120px auto 50px;
 }
 
 .col {
@@ -417,41 +417,43 @@ h1 {
 }
 
 .col img.pato {
-    width: 14%;
-    height: 14%;
-    margin-top: 50px;
+    width: 14vw;
+    height: 16vw;
+    margin-top: 32px;
     margin-right: 85px;
     margin-left: 40px;
 }
 
 .col img.tnr {
-    width: 20%;
-    height: 20%;
-    margin: 150px 55px 0px 0px;
+    width: 20vw;
+    height: 20vw;
+    margin: 105px 55px 0px 0px;
 }
 
 .col img.talk {
-    width: 20%;
-    height: 20%;
-    margin: 80px 55px 0px 0px;
+    width: 18vw;
+    height: 14vw;
+    margin: 65px 55px 0px 0px;
 }
 
 .col .title {
     margin-top: 30px;
     margin-bottom: 5px;
-    width: 600px;
+    margin-left: 0px;
+    width: 40vw;
     line-height: 1;
-    font-size: 72px;
+    font-size: 5vw;
     color: #DC965A;
     font-weight: bold;
+    text-align: left;
 }
 
 .col p {
     padding-top: 30px;
     padding-bottom: 100px;
     color: #493B2A;
-    font-size: 24px;
-    width: 720px;
+    font-size: 1.8vw;
+    width: 55vw;
     overflow-wrap: break-word;
 }
 
@@ -541,7 +543,7 @@ h1 {
 }
 
 .group a:visited {
-    color:#0E9594;
+    color: #0E9594;
     text-decoration: underline;
 }
 
@@ -607,19 +609,22 @@ h1 {
     color: #0E9594
 }
 
-.donation{
-    margin: 50px 200px;
-    font-size: 24px;
+.donation {
+    display: flex;
+    margin: 0 auto 6.1vw;
+    font-size: 1.6vw;
     color: #493B2A;
     text-align: center;
+    width: 66vw;
 }
+
 .donation a:link {
     color: #0E9594;
     text-decoration: underline;
 }
 
 .donation a:visited {
-    color:#0E9594;
+    color: #0E9594;
     text-decoration: underline;
 }
 
@@ -627,4 +632,91 @@ h1 {
     color: #DC965A;
 }
 
+form {
+    width: 45vw;
+    margin: 0 auto;
+}
 
+form label {
+    display: flex;
+    width: auto;
+    font-size: 2.5vw;
+    padding: 0px 10px 10px;
+}
+
+form input {
+    display: flex;
+    font-size: 1.8vw;
+    width: 45vw;
+    margin: 0 auto;
+}
+
+form textarea {
+    display: flex;
+    font-size: 1.8vw;
+    width: 45vw;
+    margin: 0 auto;
+    height: 12vw;
+}
+
+form button {
+    display: flex;
+    line-height: 3vw;
+    margin:  5px auto 20px;
+    background-color: #DC965A;
+    color: #F5F9E9;
+    font-size: 1.8vw;
+    font-family: 'Kiwi Maru', serif;
+    text-align: center;
+    padding: 0 20px;
+    border-color: #DC965A;
+    border-bottom: 5px solid #CC864A;
+    border-radius: 3px;
+}
+
+form button:hover {
+    margin:  8px auto 20px;
+    color: #F5F9E9;
+    background: #DC965A;
+    border-bottom: 2px solid #CC864A;
+    border-radius: 3px;
+}
+
+p.contact{
+    display: flex;
+    text-align: center;
+    width: 31vw;
+    margin: 10px auto 30px;
+}
+
+main.prepare{
+    margin: 140px;
+}
+
+p.thanks{
+    display: flex;
+    text-align: center;
+    width: 50vw;
+    margin: 10px auto 30px;
+    font-size: 1.8vw;
+}
+
+a.thanks{
+    display: flex;
+    text-align: center;
+    width: 10vw;
+    margin: 10px auto 30px;
+}
+a.thanks:link {
+    color: #0E9594;
+    text-decoration: underline;
+}
+
+a.thanks:visited {
+    color: #0E9594;
+    text-decoration: underline;
+}
+
+a.thanks:active {
+    color: #DC965A;
+}
