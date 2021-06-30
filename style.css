@@ -157,6 +157,7 @@ main {
     position: relative;
     margin: 0px;
     color: #493B2A;
+    padding-bottom: 80px;
     box-sizing: border-box;
 }
 
@@ -165,6 +166,20 @@ main.prepare{
     margin: 160px 160px 0px;
     padding-bottom: 0;
 }
+
+/*縦向き*/
+@media screen and (min-width:480px) and (max-width:768px){
+    main{
+        padding-bottom: 0px;
+    }  
+  }
+  
+  /*横向き*/
+  /* @media screen and (orientation:landscape){
+    main{
+        padding-bottom: 0px;
+    }  
+  } */
 
 /* その場で */
 
