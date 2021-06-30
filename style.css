@@ -30,9 +30,6 @@ body {
     position: relative;
     overflow-x: hidden;
     font-family: 'Kiwi Maru', serif;
-    display: flex;
-    flex-flow: column;
-    min-height: 100vh;
 }
 
 nav.titleimage {
@@ -162,7 +159,7 @@ main {
     color: #493B2A;
     display: flex;
     flex-direction: column;
-    min-height: 70vh;
+    min-height: 50vh;
 }
 
 main.prepare{
