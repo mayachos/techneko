@@ -155,9 +155,8 @@ main {
     overflow: hidden;
     background: #F5F9E9;
     position: relative;
-    margin: 160px 0px 0px;
-    /* min-height: 92vh; */
-    min-height: 75vh;
+    margin: 0px;
+    min-height: 92vh;
     color: #493B2A;
     padding-bottom: 80px;
     box-sizing: border-box;
