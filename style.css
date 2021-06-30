@@ -155,11 +155,17 @@ main {
     overflow: hidden;
     background: #F5F9E9;
     position: relative;
-    margin: auto;
-    min-height: 78.5vh;
+    margin: 160px 0px 0px;
+    min-height: 92vh;
     color: #493B2A;
     padding-bottom: 80px;
     box-sizing: border-box;
+}
+
+main.prepare{
+    min-height: 78.5vh;
+    margin: 160px 160px 0px;
+    padding-bottom: 0;
 }
 
 /* その場で */
@@ -716,10 +722,6 @@ p.contact{
     margin: 10px auto 30px;
 }
 
-main.prepare{
-    margin: 160px 160px 0px;
-    padding-bottom: 0;
-}
 
 p.thanks{
     display: flex;
