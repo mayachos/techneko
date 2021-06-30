@@ -30,6 +30,9 @@ body {
     position: relative;
     overflow-x: hidden;
     font-family: 'Kiwi Maru', serif;
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
 }
 
 nav.titleimage {
@@ -157,7 +160,6 @@ main {
     position: relative;
     margin: 0px;
     color: #493B2A;
-    padding-bottom: 80px;
     box-sizing: border-box;
 }
 
@@ -408,8 +410,7 @@ footer {
     background-color: #DC965A;
     width: 100%;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0; /*下に固定*/
+    flex: 1;
 }
 
 footer p {
