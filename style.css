@@ -159,7 +159,7 @@ main {
     color: #493B2A;
     display: flex;
     flex-direction: column;
-    min-height: 70vh;
+    min-height: 60vh;
 }
 
 main.prepare{
