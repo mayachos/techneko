@@ -171,6 +171,7 @@ main.prepare{
 @media screen and (min-width:480px) and (max-width:768px){
     main{
         padding-bottom: 0px;
+        min-height: 100vh;
     }  
   }
   
