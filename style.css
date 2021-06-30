@@ -154,8 +154,12 @@ nav a:hover {
 main {
     overflow: hidden;
     background: #F5F9E9;
+    position: relative;
     margin: auto;
+    min-height: 78.5vh;
     color: #493B2A;
+    padding-bottom: 80px;
+    box-sizing: border-box;
 }
 
 /* その場で */
@@ -380,17 +384,18 @@ dd a {
     font-size: 18px;
 }
 
-.end {
+footer {
     background-color: #DC965A;
-    height: 60px;
     width: 100%;
+    padding: 10px 0;
+    position: absolute;
     bottom: 0; /*下に固定*/
 }
 
-.end p {
+footer p {
     color: #F5F9E9;
     text-align: center;
-    padding-top: 14px;
+    padding: 14px;
     font-size: 18px;
 }
 
@@ -466,7 +471,7 @@ h1 {
 
 .group img {
     display: block;
-    width: 40%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 8px;
@@ -486,9 +491,8 @@ h1 {
 
 .group table {
     display: block;
-    margin: 50px 100px 80px 285px;
-    table-layout: flex;
-    width: 100%;
+    margin: 5vw auto;
+    width: 61%;
     font-size: 28px;
     border-collapse: collapse;
 }
@@ -559,17 +563,17 @@ h1 {
 .screen {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 200px;
+    margin: 50px 150px;
     text-align: center;
 }
 
 .screen .card {
-    display: inline-block;
-    flex-direction: column;
-    padding: 10px 0px;
-    margin: 20px;
-    width: 28%;
+    display: block;
+    padding: 20px;
+    margin-top: 30px;
+    width: 26%;
     height: 350px;
+
     background-color: #FEFEFE;
     border-style: solid;
     border-width: 5px;
@@ -577,6 +581,28 @@ h1 {
     border-radius: 8px;
     box-shadow: 4px 5px #C5C9B9;
 }
+
+.screen .card:not(:nth-child(3n+3)){
+    margin-right: 2.6%;
+}
+
+.screen .card:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+@media not all and (min-width: 300px) {
+    .screen .card{
+        width: 100%;
+    }
+    .screen .card:not(:nth-child(3n+3)){
+        margin-right: 3.2%;
+    }
+    
+    .screen .card:nth-child(n+2) {
+        margin-top: 30px;
+    }
+}
+
 
 .screen .card img {
     width: 68%;
@@ -691,7 +717,8 @@ p.contact{
 }
 
 main.prepare{
-    margin: 160px;
+    margin: 160px 160px 0px;
+    padding-bottom: 0;
 }
 
 p.thanks{
