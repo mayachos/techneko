@@ -7,17 +7,22 @@
     <title> TechNeko</title>
     <link rel="shortcut icon" href="favicon.ico" type="favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="techneko.js"></script>
     <!--←本体の下に設置しないと動きません！-->
-    <div class="col-9 blurTrigger"> <h1 class="fadeRightTrigger">ひと<p>と</p>ねこ</h1> <img src="leader3_filter.jpg" alt=""></div>
+    <div class="col-9 blurTrigger">
+        <h1 class="fadeRightTrigger">てくねこ</h1> <img src="leader3_filter2.jpg" alt="">
+    </div>
     <main>
         <section class="col-6">
-            <h1 class="title fadeUpTrigger">てくねこ</h1>
+            <h1 class="title fadeUpTrigger">ABOUT</h1>
             <br>
             <img class="fadeUpTrigger" src="h&c.png" alt="">
             <p class="fadeUpTrigger">
@@ -73,7 +78,8 @@
                     </div>
                 </dl>
                 <div class="sidebar">
-                    <a class="twitter-timeline" data-lang="ja" data-width="550" data-height="350" href="https://twitter.com/Tech_Neko_kut?ref_src=twsrc%5Etfw">Tweets by Tech_Neko_kut</a>
+                    <a class="twitter-timeline" data-lang="ja" data-width="550" data-height="350"
+                        href="https://twitter.com/Tech_Neko_kut?ref_src=twsrc%5Etfw">Tweets by Tech_Neko_kut</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </div>
             </div>
@@ -90,15 +96,31 @@
             <img src="techneko_text2.png" alt="title" class="techneko">
         </div>
 
-        <ul class="container">
+        <ul class="p-container">
             <li><a href="index.html" class="current"><span>ホーム</span></a></li>
             <li><a href="activity.html"><span>活動内容</span></a></li>
             <li><a href="group.html"><span>団体紹介</span></a></li>
             <li><a href="cat.html"><span>猫紹介</span></a></li>
             <li><a href="donation.html"><span>寄付</span></a></li>
             <li><a href="https://pando.life/standbycats"><span>活動記録</span></a></li>
-            <li><a href=""><span>問い合わせ</span></a></li>
+            <li><a href="contact.html"><span>問い合わせ</span></a></li>
         </ul>
+        <div class="snav">
+            <ul class="s-container">
+                <li><a href="index.html"><span>ホーム</span></a></li>
+                <li><a href="activity.html"><span>活動内容</span></a></li>
+                <li><a href="group.html"><span>団体紹介</span></a></li>
+                <li><a href="cat.html"><span>猫紹介</span></a></li>
+                <li><a href="donation.html"><span>寄付</span></a></li>
+                <li><a href="https://pando.life/standbycats"><span>活動記録</span></a></li>
+                <li><a href="contact.html"><span>問い合わせ</span></a></li>
+                <li class="close"><span>閉じる</span></li>
+            </ul>
+        </div>
+        <div id="hamburger">
+            <span></span>
+        </div>
+
     </nav>
     <footer>
         <p>

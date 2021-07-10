@@ -61,3 +61,11 @@ document.body.appendChild(stalker); //bodyの最後に挿入
 document.addEventListener('mousemove', function (e) {
     stalker.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
 });
+
+$(function() {
+    const hum = $('#hamburger, .close')
+    const nav = $('.snav')
+    hum.on('click', function(){
+       nav.toggleClass('toggle');
+    });
+ });

@@ -56,7 +56,7 @@ img.techneko {
     max-width: 400px;
 }
 
-.container {
+.p-container {
     margin-left: auto;
     margin-right: 20px;
     width: auto;
@@ -68,7 +68,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
-    min-height: 8%;
+    min-height: 5%;
     padding: 20px 10px 10px 20px;
     overflow: hidden;
     background: #F5F9E9;
@@ -85,7 +85,7 @@ nav li {
     float: left;
 }
 
-nav a {
+.p-container a {
     height: 20px;
     width: 5.8vw;
     position: relative;
@@ -102,16 +102,16 @@ nav a {
     transition: .8s;
 }
 
-nav a.current {
+.p-container a.current {
     color: #F5F9E9;
 }
 
-nav a span {
+.p-container a span {
     position: relative;
     z-index: 1;
 }
 
-nav a::before, nav a::after {
+.p-container a::before, .p-container a::after {
     content: "";
     position: absolute;
     top: 0;
@@ -123,30 +123,30 @@ nav a::before, nav a::after {
     background-color: #F5F9E9;
 }
 
-nav a.current::before, nav a.current::after {
+.p-container a.current::before, .p-container a.current::after {
     background-color: #DC965A;
     border-radius: 5px;
 }
 
-nav a::before {
+.p-container a::before {
     left: 0;
 }
 
-nav a::after {
+.p-container a::after {
     right: 0;
 }
 
-nav a:hover::before, nav a:hover::after {
+.p-container a:hover::before, .p-container a:hover::after {
     width: 0;
     background: #F5F9E9;
     border-radius: 5px;
 }
 
-nav a.current:hover::before, nav a.current:hover::after {
+.p-container a.current:hover::before, .p-container a.current:hover::after {
     background: #F5F9E9;
 }
 
-nav a:hover {
+.p-container a:hover {
     color: #F5F9E9;
     border-radius: 5px;
 }
@@ -159,25 +159,27 @@ main {
     color: #493B2A;
     display: flex;
     flex-direction: column;
-    min-height: 60vh;
+    min-height: 72vh;
 }
 
-main.prepare{
+main.prepare {
     min-height: 78.5vh;
     margin: 160px 160px 0px;
     padding-bottom: 0;
 }
 
 /*縦向き*/
-@media screen and (min-width:480px) and (max-width:768px){
-    main{
+
+@media screen and (min-width:380px) {
+    main {
         padding-bottom: 0px;
-        min-height: 100vh;
-    }  
-  }
-  
-  /*横向き*/
-  /* @media screen and (orientation:landscape){
+        min-height: 50vh;
+    }
+}
+
+/*横向き*/
+
+/* @media screen and (orientation:landscape){
     main{
         padding-bottom: 0px;
     }  
@@ -287,14 +289,12 @@ main.prepare{
 .col-9 h1 {
     display: flex;
     position: absolute;
-    width: 25vw;
+    width: 35vw;
     height: 6vw;
-    background-color: #DC965A;
-    color: #F5F9E9;
-    font-size: 5vw;
-    margin: 23vw auto 6vw 60vw;
+    color: #FEFEFE;
+    font-size: 7vw;
+    margin: 15vw auto 6vw 42vw;
     padding: 1.2vw;
-    border-radius: 1.5px;
 }
 
 .col-9 h1 p {
@@ -316,6 +316,7 @@ main.prepare{
 
 .col-6 h1.title {
     line-height: 1;
+    font-family: 'Teko', sans-serif;
     color: #DC965A;
     font-weight: bold;
     margin-bottom: 10px;
@@ -331,9 +332,9 @@ main.prepare{
 }
 
 .col-5 {
-    margin: 50px 0px 0px;
+    margin: 3vw 0px 0px;
     background: #F5F9E9;
-    min-height: 300px;
+    min-height: 50vw;
     text-align: center;
 }
 
@@ -343,7 +344,7 @@ main.prepare{
     left: 10px;
     padding: 0 9px;
     line-height: 1;
-    font-size: 52px;
+    font-size: 4vw;
     color: #DC965A;
     font-weight: bold;
 }
@@ -351,7 +352,7 @@ main.prepare{
 .col-5 p {
     margin: auto;
     color: #493B2A;
-    font-size: 28px;
+    font-size: 2vw;
     margin-bottom: 5px;
 }
 
@@ -363,12 +364,13 @@ main.prepare{
 dl {
     overflow: auto;
     width: 47%;
-    height: 330px;
+    height: 28vw;
     margin: 50px 0px;
     margin-right: 1vw;
     padding: 10px 0px 10px 20px;
     background-color: #FEFEFE;
     border-radius: 10px;
+    font-size: 1.3vw;
 }
 
 dd a {
@@ -384,6 +386,7 @@ dd a {
     margin-top: 50px;
     margin-left: 1vw;
     width: 48.5%;
+    height: 28vw;
     background: #F5F9E9;
     color: #493B2A;
 }
@@ -413,6 +416,7 @@ footer {
 }
 
 footer p {
+    font-family: 'Teko', sans-serif;
     color: #F5F9E9;
     text-align: center;
     padding: 14px;
@@ -583,61 +587,46 @@ h1 {
 .screen {
     display: flex;
     flex-wrap: wrap;
-    margin: 50px 150px;
+    margin: 0px 16% 30px;
     text-align: center;
 }
 
 .screen .card {
     display: block;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 4vw;
     width: 26%;
-    height: 350px;
-
+    height: 23vw;
     background-color: #FEFEFE;
     border-style: solid;
-    border-width: 5px;
+    border-width: 2px;
     border-color: #DC965A;
     border-radius: 8px;
     box-shadow: 4px 5px #C5C9B9;
 }
 
-.screen .card:not(:nth-child(3n+3)){
+.screen .card:not(:nth-child(3n+3)) {
     margin-right: 2.6%;
 }
 
-.screen .card:nth-child(n+4) {
-    margin-top: 30px;
+.screen .card:nth-child(3n+3) {
+    margin-right: 2.6%;
 }
-
-@media not all and (min-width: 300px) {
-    .screen .card{
-        width: 100%;
-    }
-    .screen .card:not(:nth-child(3n+3)){
-        margin-right: 3.2%;
-    }
-    
-    .screen .card:nth-child(n+2) {
-        margin-top: 30px;
-    }
-}
-
 
 .screen .card img {
     width: 68%;
-    margin: 30px auto;
+    margin: 8% auto;
 }
 
 .screen .card img.side {
     width: 93%;
-    margin: 50px 20px 10px;
+    margin: 15% 5%;
 }
 
 .screen .card h2 {
     width: 80%;
     margin: 10px auto 0px;
-    font-size: 36px;
+    font-size: 2.3vw;
     color: #493B2A;
     line-height: 1em;
 }
@@ -709,7 +698,7 @@ form textarea {
 form button {
     display: flex;
     line-height: 3vw;
-    margin:  5px auto 20px;
+    margin: 5px auto 20px;
     background-color: #DC965A;
     color: #F5F9E9;
     font-size: 1.8vw;
@@ -722,22 +711,21 @@ form button {
 }
 
 form button:hover {
-    margin:  8px auto 20px;
+    margin: 8px auto 20px;
     color: #F5F9E9;
     background: #DC965A;
     border-bottom: 2px solid #CC864A;
     border-radius: 3px;
 }
 
-p.contact{
+p.contact {
     display: flex;
     text-align: center;
     width: 31vw;
     margin: 10px auto 30px;
 }
 
-
-p.thanks{
+p.thanks {
     display: flex;
     text-align: center;
     width: 50vw;
@@ -745,12 +733,13 @@ p.thanks{
     font-size: 1.8vw;
 }
 
-a.thanks{
+a.thanks {
     display: flex;
     text-align: center;
     width: 10vw;
     margin: 10px auto 30px;
 }
+
 a.thanks:link {
     color: #0E9594;
     text-decoration: underline;
@@ -763,4 +752,201 @@ a.thanks:visited {
 
 a.thanks:active {
     color: #DC965A;
+}
+
+.s-container {
+    display: none;
+}
+
+@media screen and (max-width: 1360px) {
+    nav {
+        padding: 2vw;
+    }
+    nav li {
+        padding: 0 2px;
+    }
+    nav a {
+        width: 6.6vw;
+    }
+    .screen {
+        margin: 0px 5vw 10vw 13vw;
+    }
+    .screen .card {
+        padding: 5px;
+        height: 32vw;
+    }
+    /* .screen .card:nth-child(3n+3){
+        margin-right: 2.6%;
+    } */
+}
+
+@media screen and (max-width: 480px) {
+    #stalker{
+        display: none;
+    }
+    img.techneko{
+        width: 35vw;
+    }
+    nav {
+        height: 8vw;
+        padding: 3vw 2vw 0;
+    }
+    nav .p-container {
+        display: none;
+    }
+    #humberger {
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 25px;
+        margin: 0 0 0 auto;
+    }
+    #hamburger span {
+        position: absolute;
+        top: 6.5vw;
+        right: 6vw;
+        display: block;
+        width: 5%;
+        height: 2px;
+        background-color: #DC965A;
+        transform: translateY(-50%);
+    }
+    #hamburger::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 4.4vw;
+        right: 6vw;
+        width: 5%;
+        height: 2px;
+        background-color: #DC965A;
+    }
+    #hamburger::after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 7.8vw;
+        right: 6vw;
+        width: 5%;
+        height: 2px;
+        background-color: #DC965A;
+    }
+    .snav {
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        background: rgba(14, 149, 148, .8);
+        transition: all .2s ease-in-out;
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    ul.s-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .s-container li {
+        margin: 20px;
+        padding: 0 auto;
+        
+    }
+    .s-container li span {
+        font-size: 15px;
+        color: #F5F9E9;
+        width: auto;
+    }
+    .s-container li a, .s-container li span {
+        padding: 20px 0;
+        text-decoration:none;
+    }
+    /*基準となるli要素*/
+    .s-container .close {
+        position: relative;
+        padding-left: 20px;
+    }
+    /*バツ印線1*/
+    .s-container .close::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #F5F9E9;
+        transform: rotate( 45deg);
+    }
+    /*バツ印線2*/
+    .s-container .close::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        display: block;
+        width: 16px;
+        height: 1px;
+        background: #F5F9E9;
+        transform: rotate( -45deg);
+    }
+    .toggle {
+        transform: translateY( 0 );
+        opacity: 1;
+     }
+
+    .col-9 {
+        position: relative;
+        clear: both;
+        margin: 13vmin 0px 0px;
+    }
+    .col-9 h1 {
+        width: 35vw;
+        height: 6vw;
+        font-size: 8vw;
+        margin: 25vw auto 6vw 52vw;
+    }
+    .col-6 {
+        height: 58vw;
+        padding-top: 1vw;
+    }
+    .col-6 img {
+        width: 30vw;
+    }
+    .col-6 h1.title {
+        line-height: 1;
+        margin-top: 5vw;
+    }
+    .col-6 p {
+        width: 55vw;
+        margin: 5vw auto 5.5vw;
+    }
+    .info {
+        display: block;
+        margin: 0px 3px;
+    }
+    dl{
+        height: 30vw;
+        width: auto;
+        margin: 10px 0px;
+    }
+    .sidebar{
+        margin-top: 10px;
+        height: 70vw;
+        width: auto;
+    }
+
+    .screen {
+        margin: 0;
+        padding: 0 5vw 15vw 8vw;
+    }
+    .screen .card {
+        padding: 5px;
+        height: 32vw;
+    }
 }
