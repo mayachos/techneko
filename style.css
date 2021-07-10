@@ -586,7 +586,7 @@ h1 {
 .screen {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 16% 30px;
+    margin: 0px 16% 40px;
     text-align: center;
 }
 
