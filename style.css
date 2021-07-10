@@ -87,7 +87,7 @@ nav li {
 
 .p-container a {
     height: 20px;
-    width: 5.8vw;
+    width: 6.6vw;
     position: relative;
     display: table-cell;
     padding: 8px 16px;
@@ -163,19 +163,11 @@ main {
 }
 
 main.prepare {
-    min-height: 78.5vh;
+    min-height: 67vh;
     margin: 160px 160px 0px;
     padding-bottom: 0;
 }
 
-/*縦向き*/
-
-@media screen and (min-width:380px) {
-    main {
-        padding-bottom: 0px;
-        min-height: 50vh;
-    }
-}
 
 /*横向き*/
 
@@ -364,7 +356,7 @@ main.prepare {
 dl {
     overflow: auto;
     width: 47%;
-    height: 28vw;
+    height: 47vh;
     margin: 50px 0px;
     margin-right: 1vw;
     padding: 10px 0px 10px 20px;
@@ -386,7 +378,6 @@ dd a {
     margin-top: 50px;
     margin-left: 1vw;
     width: 48.5%;
-    height: 28vw;
     background: #F5F9E9;
     color: #493B2A;
 }
@@ -400,27 +391,35 @@ dd a {
 
 .sns_tag {
     display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 25px;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
 }
 
 .sns_tag p {
     font-size: 18px;
 }
 
+body{
+    min-height: 100vh; /* ←コンテンツの高さの最小値＝ブラウザの高さに指定 */
+    position: relative;/* ←相対位置 */
+    padding-bottom: 5vh; /* ←フッターの高さを指定 */
+    box-sizing: border-box;
+}
+
 footer {
+    position: absolute;/* ←絶対位置 */
+    bottom: 0;
     background-color: #DC965A;
     width: 100%;
-    padding: 10px 0;
-    margin-top: auto;
+    padding: 1vh 0;
 }
 
 footer p {
     font-family: 'Teko', sans-serif;
     color: #F5F9E9;
     text-align: center;
-    padding: 14px;
-    font-size: 18px;
+    padding: 1vh;
+    font-size: 1.8vw;
 }
 
 h1 {
@@ -437,7 +436,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 140px 180px 90px;
+    padding: 100px 150px 90px;
     background: #FEFEFE;
     text-align: left;
 }
@@ -447,23 +446,23 @@ h1 {
 }
 
 .col img.pato {
-    width: 14vw;
+    width: 11vw;
     height: 16vw;
-    margin-top: 32px;
-    margin-right: 85px;
-    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 60px;
+    margin-left: 50px;
 }
 
 .col img.tnr {
-    width: 20vw;
+    width: 16vw;
     height: 20vw;
-    margin: 105px 55px 0px 0px;
+    margin: 80px 20px 0px;
 }
 
 .col img.talk {
     width: 18vw;
-    height: 14vw;
-    margin: 65px 55px 0px 0px;
+    height: 15vw;
+    margin: 40px 20px 0px 30px;
 }
 
 .col .title {
@@ -483,7 +482,7 @@ h1 {
     padding-bottom: 100px;
     color: #493B2A;
     font-size: 1.8vw;
-    width: 55vw;
+    width: 60vw;
     overflow-wrap: break-word;
 }
 
@@ -516,13 +515,13 @@ h1 {
 .group table {
     display: block;
     margin: 5vw auto;
-    width: 61%;
-    font-size: 28px;
+    width: 63%;
+    font-size: 2vw;
     border-collapse: collapse;
 }
 
 .group table tr {
-    border-bottom: solid 5px #F5F9E9;
+    border-bottom: solid 3px #F5F9E9;
 }
 
 .group table tr:last-child {
@@ -536,8 +535,8 @@ h1 {
     background-color: #DC965A;
     color: #FEFEFE;
     text-align: center;
-    padding: 20px 0;
-    border-radius: 8px 0px 0px 8px;
+    padding: 10px 0;
+    border-radius: 4px;
 }
 
 .group table th:after {
@@ -723,6 +722,7 @@ p.contact {
     text-align: center;
     width: 31vw;
     margin: 10px auto 30px;
+    font-size: 1.5vw;
 }
 
 p.thanks {
@@ -766,7 +766,7 @@ a.thanks:active {
         padding: 0 2px;
     }
     nav a {
-        width: 6.6vw;
+        width: 6.4vw;
     }
     .screen {
         margin: 0px 5vw 10vw 13vw;
@@ -778,9 +778,18 @@ a.thanks:active {
     /* .screen .card:nth-child(3n+3){
         margin-right: 2.6%;
     } */
+
+    dl {
+        height: 24vh;
+    }
+}
+@media screen and (max-width: 1000px) {
+    dl {
+        height: 32vh;
+    }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 540px) {
     #stalker{
         display: none;
     }
@@ -803,7 +812,7 @@ a.thanks:active {
     }
     #hamburger span {
         position: absolute;
-        top: 6.5vw;
+        top: 6.4vw;
         right: 6vw;
         display: block;
         width: 5%;
@@ -825,7 +834,7 @@ a.thanks:active {
         content: '';
         display: block;
         position: absolute;
-        top: 7.8vw;
+        top: 7.7vw;
         right: 6vw;
         width: 5%;
         height: 2px;
@@ -923,7 +932,7 @@ a.thanks:active {
         margin-top: 5vw;
     }
     .col-6 p {
-        width: 55vw;
+        width: 70vw;
         margin: 5vw auto 5.5vw;
     }
     .info {
@@ -937,8 +946,73 @@ a.thanks:active {
     }
     .sidebar{
         margin-top: 10px;
-        height: 70vw;
+        height: 90vw;
         width: auto;
+    }   
+    .sns_tag {
+        margin: 80px 0;
+    }
+    
+    .sns_tag p {
+        font-size: 18px;
+    }
+
+    h1 {
+        margin: 55px auto 20px;
+        font-size: 8vw;
+    }
+    .col {
+        padding: 10px 20px 25px 20px;
+        background: #FEFEFE;
+        text-align: left;
+        display: block;
+    }
+    .col text {
+        display: inline-block;
+    } 
+    .col img{
+        display: flex;
+    }
+    .col img.pato {
+        width: 16vw;
+        height: 24vw;
+        margin: 10px auto;
+    }
+    .col img.tnr {
+        width: 22vw;
+        height: 28vw;
+        margin: 10px auto;
+    }
+    .col img.talk {
+        width: 22vw;
+        height: 18vw;
+        margin: 10px auto 30px;
+    }
+    .col .title {
+        width: 80vw;
+        font-size: 8vw;
+    }
+    .col p {
+        padding: 18px;
+        font-size: 4vw;
+        width: 80vw;
+    }
+    .beige {
+        background: #F5F9E9;
+    }
+
+    .group img {
+        width: 90%;
+    }
+    .group table {
+        width: 90%;
+    }
+
+    main.prepare {
+        margin: 35px 10px;
+    }
+    main.prepare h1{
+        width: 100%;
     }
 
     .screen {
