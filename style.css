@@ -1005,18 +1005,18 @@ a.thanks:active {
         width: 90%;
     }
     .group table {
-        width: 80%;
+        width: 70%;
         margin: 20px auto;
     }
 
     main.prepare {
-        margin: 35px 10px;
+        margin: 35px 5px;
     }
     main.prepare h1{
         width: 100%;
     }
     main.prepare p{
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
 
     .screen {
@@ -1032,8 +1032,25 @@ a.thanks:active {
         width: 80vw;
         margin: 0 auto;
     }
+    form label{
+        font-size: 4vw;
+    }
+    form input{
+        font-size: 2vw;
+    }
+    form textarea{
+        font-size: 2vw;
+        height: 20vh;
+    }
+    form button {
+        line-height: 3vw;
+        margin: 5px auto 20px;
+        font-size: 3vw;
+        padding: 10px 20px;
+    }
 
     p.contact {
-        font-size: 2.2vw;
+        font-size: 2.5vw;
+        width: 65%;
     }
 }
