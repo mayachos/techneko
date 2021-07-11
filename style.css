@@ -356,7 +356,7 @@ main.prepare {
 dl {
     overflow: auto;
     width: 47%;
-    height: 47vh;
+    height: 44.5vh;
     margin: 50px 0px;
     margin-right: 1vw;
     padding: 10px 0px 10px 20px;
@@ -721,7 +721,7 @@ p.contact {
     display: flex;
     text-align: center;
     width: 31vw;
-    margin: 10px auto 30px;
+    margin: 10px auto 40px;
     font-size: 1.5vw;
 }
 
@@ -758,7 +758,7 @@ a.thanks:active {
     display: none;
 }
 
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1025px){
     nav {
         padding: 2vw;
     }
@@ -789,7 +789,7 @@ a.thanks:active {
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 750px) {
     #stalker{
         display: none;
     }
@@ -1005,7 +1005,8 @@ a.thanks:active {
         width: 90%;
     }
     .group table {
-        width: 90%;
+        width: 80%;
+        margin: 20px auto;
     }
 
     main.prepare {
@@ -1022,5 +1023,10 @@ a.thanks:active {
     .screen .card {
         padding: 5px;
         height: 32vw;
+    }
+
+    form {
+        width: 80vw;
+        margin: 0 auto;
     }
 }
