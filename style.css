@@ -1055,4 +1055,12 @@ a.thanks:active {
         font-size: 2.5vw;
         width: 65%;
     }
+
+    p.thanks{
+        width: 75%;
+    }
+    a.thanks{
+        margin: 20px auto;
+        width: 40%;
+    }
 }
