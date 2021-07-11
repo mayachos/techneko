@@ -813,7 +813,7 @@ a.thanks:active {
     #hamburger span {
         position: absolute;
         top: 6.4vw;
-        right: 6vw;
+        right: 6.5vw;
         display: block;
         width: 5%;
         height: 2px;
@@ -825,7 +825,7 @@ a.thanks:active {
         display: block;
         position: absolute;
         top: 4.4vw;
-        right: 6vw;
+        right: 6.5vw;
         width: 5%;
         height: 2px;
         background-color: #DC965A;
@@ -835,7 +835,7 @@ a.thanks:active {
         display: block;
         position: absolute;
         top: 7.7vw;
-        right: 6vw;
+        right: 6.5vw;
         width: 5%;
         height: 2px;
         background-color: #DC965A;
@@ -1015,6 +1015,9 @@ a.thanks:active {
     main.prepare h1{
         width: 100%;
     }
+    main.prepare p{
+        font-size: 2.5vw;
+    }
 
     .screen {
         margin: 0;
@@ -1028,5 +1031,9 @@ a.thanks:active {
     form {
         width: 80vw;
         margin: 0 auto;
+    }
+
+    p.contact {
+        font-size: 2.2vw;
     }
 }
