@@ -934,6 +934,7 @@ a.thanks:active {
     .col-6 p {
         width: 70vw;
         margin: 5vw auto 5.5vw;
+        font-size: 3vw;
     }
     .info {
         display: block;
@@ -943,6 +944,7 @@ a.thanks:active {
         height: 30vw;
         width: auto;
         margin: 10px 0px;
+        font-size: 3vw;
     }
     .sidebar{
         margin-top: 10px;
