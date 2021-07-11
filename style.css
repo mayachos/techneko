@@ -1036,10 +1036,10 @@ a.thanks:active {
         font-size: 4vw;
     }
     form input{
-        font-size: 2vw;
+        font-size: 2.5vw;
     }
     form textarea{
-        font-size: 2vw;
+        font-size: 2.5vw;
         height: 20vh;
     }
     form button {
