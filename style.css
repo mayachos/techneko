@@ -23,6 +23,8 @@
     z-index: 999;
 }
 
+
+
 body {
     background: #F5F9E9;
     margin: 0;
@@ -812,7 +814,7 @@ a.thanks:active {
     }
     #hamburger span {
         position: absolute;
-        top: 6.4vw;
+        top: 6.3vw;
         right: 6.5vw;
         display: block;
         width: 5%;
@@ -935,6 +937,9 @@ a.thanks:active {
         width: 70vw;
         margin: 5vw auto 5.5vw;
         font-size: 3vw;
+    }
+    .col-5 .title{
+        font-size: 5vw;
     }
     .info {
         display: block;
@@ -1062,5 +1067,9 @@ a.thanks:active {
     a.thanks{
         margin: 20px auto;
         width: 40%;
+    }
+
+    footer p{
+        font-size: 4vw;
     }
 }
