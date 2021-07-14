@@ -652,7 +652,7 @@ h1 {
     font-size: 1.6vw;
     color: #493B2A;
     text-align: center;
-    width: 66vw;
+    width: 48vw;
 }
 
 .donation a:link {
@@ -920,7 +920,7 @@ a.thanks:active {
         width: 35vw;
         height: 6vw;
         font-size: 8vw;
-        margin: 25vw auto 6vw 52vw;
+        margin: 11vh auto auto 52vw;
     }
     .col-6 {
         height: 58vw;
@@ -952,12 +952,12 @@ a.thanks:active {
         font-size: 3vw;
     }
     .sidebar{
-        margin-top: 10px;
-        height: 90vw;
-        width: auto;
+        margin: 10px auto 0;
+        height: 400px;
+        width: 95vw;
     }   
     .sns_tag {
-        margin: 80px 0;
+        margin: 5vh 0;
     }
     
     .sns_tag p {
@@ -1001,7 +1001,7 @@ a.thanks:active {
     }
     .col p {
         padding: 18px;
-        font-size: 4vw;
+        font-size: 3vw;
         width: 80vw;
     }
     .beige {
@@ -1014,6 +1014,7 @@ a.thanks:active {
     .group table {
         width: 70%;
         margin: 20px auto;
+        font-size: 3vw;
     }
 
     main.prepare {
@@ -1024,6 +1025,9 @@ a.thanks:active {
     }
     main.prepare p{
         font-size: 4vw;
+    }
+    .donation {
+        width: 66vw;
     }
 
     .screen {
