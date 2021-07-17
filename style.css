@@ -313,8 +313,15 @@ main.prepare {
     font-family: 'Teko', sans-serif;
     color: #DC965A;
     font-weight: bold;
-    margin-bottom: 10px;
     margin-top: 5vw;
+    margin-bottom: 0;
+    font-size: 6vw;
+}
+
+.col-6 h2{
+    color: #493B2A;
+    font-size: 2.5vw;
+    margin-top: 0;
 }
 
 .col-6 p {
