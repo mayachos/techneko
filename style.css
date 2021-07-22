@@ -592,49 +592,57 @@ h1 {
     background: #F5F9E9;
 }
 
+h2.neko {
+    display: flex;
+    font-size: 2vw;
+    color: #DC965A;
+    margin: 15px auto 10px;
+    text-align: center;
+}
+
 .screen {
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 16% 15vh;
+    margin: 0px 9% 7vh 11%;
     text-align: center;
 }
 
 .screen .card {
     display: block;
     padding: 20px;
-    margin-top: 4vw;
-    width: 26%;
-    height: 23vw;
+    margin-top: 4vh;
+    width: 44vh;
+    height: 44vh;
     background-color: #FEFEFE;
-    border-style: solid;
-    border-width: 2px;
+    border-style: dashed;
+    border-width: 3px;
     border-color: #DC965A;
-    border-radius: 8px;
-    box-shadow: 4px 5px #C5C9B9;
+    border-radius: 200px;
+    /* box-shadow: 4px 5px #C5C9B9; */
 }
 
 .screen .card:not(:nth-child(3n+3)) {
-    margin-right: 2.6%;
+    margin-right: 2.3%;
 }
 
 .screen .card:nth-child(3n+3) {
-    margin-right: 2.6%;
+    margin-right: 2.3%;
 }
 
 .screen .card img {
-    width: 68%;
-    margin: 8% auto;
+    width: 55%;
+    margin: 1vh auto 2vh;
 }
 
 .screen .card img.side {
-    width: 93%;
-    margin: 15% 5%;
+    width: 82%;
+    margin: 2vh 5% 3vh;
 }
 
 .screen .card h2 {
     width: 80%;
-    margin: 10px auto 0px;
-    font-size: 2.3vw;
+    margin: 7% auto 0px;
+    font-size: 2.5vw;
     color: #493B2A;
     line-height: 1em;
 }
@@ -652,6 +660,38 @@ h1 {
 .screen .card h3.male {
     color: #0E9594
 }
+
+.overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    overflow: scroll;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(14, 149, 148, .8);
+}
+
+.overlay img{
+    float: left;
+    width: 40vw;
+    margin: 20vh 3vw 20vh 10vw;
+}
+
+.overlay h3{
+    font-size: 10vh;
+    color: #FEFEFE;
+    margin: 18vh 0 5vh;
+}
+
+.overlay p{
+    font-size: 4vh;
+    margin-left: 50%;
+    width: 43vw;
+    color: #FEFEFE;
+}
+
 
 .donation {
     display: flex;
@@ -788,6 +828,17 @@ a.thanks:active {
         margin-right: 2.6%;
     } */
 
+    .screen {
+        margin: 0;
+        padding: 0 10vw 6vh 12vw;
+    }
+    
+    .screen .card {
+        height: 35vw;
+        width: 35vw;
+        margin-top: 2.3%;
+    }
+
     dl {
         height: 24vh;
     }
@@ -850,7 +901,7 @@ a.thanks:active {
         background-color: #DC965A;
     }
     .snav {
-        z-index: 1;
+        z-index: 5;
         position: fixed;
         top: 0;
         left: 0;
@@ -1039,12 +1090,16 @@ a.thanks:active {
 
     .screen {
         margin: 0;
-        padding: 0 5vw 15vw 8vw;
+        padding: 0 10vw 6vh 12vw;
     }
+    
     .screen .card {
         padding: 5px;
         height: 32vw;
+        width: 32vw;
+        margin-top: 2.3%;
     }
+
 
     form {
         width: 80vw;

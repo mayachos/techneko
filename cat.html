@@ -24,75 +24,158 @@
 <body>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="techneko.js"></script>
+    <div class="overlay cat1">
+        <img src="./cat_back/asakyon.jpg" alt="asakyon" height="800" width="600">
+        <h3>浅キョン</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat2">
+        <img src="./cat_back/ojarumaru.jpg" alt="ojarumaru" height="800" width="600">
+        <h3>おじゃるまる</h3>
+        <p>Comming soon...</p>
+    </div>
+    <div class="overlay cat3">
+        <img src="./cat_back/papanda.jpg" alt="papanda" height="800" width="600">
+        <h3>パパンダ</h3>
+        <p>白黒の見た目と大食いなぽっちゃり体型は、まるでパンダのよう...
+            鳴き声が特徴的。
+        </p>
+    </div>
+    <div class="overlay cat4">
+        <img src="./cat_back/hukakyon.jpg" alt="hukakyon" height="800" width="600">
+        <h3>深キョン</h3>
+        <p>額の割れ目が深めなので深キョン。毛並みは触りたくなるほどのふわふわ感。
+            昔は臆病だったが、今は人に慣れ始めている。
+        </p>
+    </div>
+    <div class="overlay cat5">
+        <img src="./cat_back/mayuge.jpg" alt="mayuge" height="800" width="600">
+        <h3>まゆげ</h3>
+        <p>背中のハートマークが特徴的、いつも眠そうな顔でのんびりしている。
+            浅キョンとは親子でいつも一緒にいる。
+        </p>
+    </div>
+    <div class="overlay cat6">
+        <img src="./cat_back/cutyhoney.jpg" alt="cutyhoney" height="800" width="600">
+        <h3>キューティーハニー</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat7">
+        <img src="./cat_back/sabi.jpg" alt="sabi" height="800" width="600">
+        <h3>さび</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat8">
+        <img src="./cat_back/silverback.jpg" alt="silverback" height="800" width="600">
+        <h3>シルバーバック</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat9">
+        <img src="./cat_back/sirotibi.jpg" alt="sirotibi" height="800" width="600">
+        <h3>しろちび</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat10">
+        <img src="./cat_back/tibikuro.jpg" alt="tibikuro" height="800" width="600">
+        <h3>ちびくろ</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat11">
+        <img src="./cat_back/tibiware.jpg" alt="tibiware" height="800" width="600">
+        <h3>ちびわれ</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat12">
+        <img src="./cat_back/tuoimaru.jpg" alt="tuoimaru" height="800" width="600">
+        <h3>つおいまる</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat13">
+        <img src="./cat_back/blackjack.jpg" alt="blackjack" height="800" width="600">
+        <h3>ブラックジャック</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat14">
+        <img src="./cat_back/bosa.jpg" alt="bosa" height="800" width="600">
+        <h3>ボサ</h3>
+        <p>Comming Soon...</p>
+    </div>
+    <div class="overlay cat15">
+        <img src="./cat_back/runa.jpg" alt="runa" height="800" width="600">
+        <h3>ルナ</h3>
+        <p>Comming Soon...</p>
+    </div>
     <main>
         <h1>猫紹介</h1>
+        <h2 class="neko">現在確認できるネコ</h2>
         <div class="screen">
-            <div class="card" onmouseover="">
+            <div class="card overlaybtn" id="cat1">
                 <h2>浅キョン</h2>
                 <img src="./cats/asakyon.png" alt="asakyon">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat2">
                 <h2>おじゃるまる</h2>
                 <img src="./cats/ojarumaru.png" alt="ojarumaru" class="side">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat3">
                 <h2>パパンダ</h2>
                 <img src="./cats/papanda.png" alt="papanda" class="side">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat4">
                 <h2>深キョン</h2>
                 <img src="./cats/hukakyon.png" alt="hukakyon" height="600px">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat5">
                 <h2>まゆげ</h2>
                 <img src="./cats/mayuge.png" alt="mayuge" class="side" height="600px">
             </div>
 
         </div>
+
+        <h2 class="neko">過去にいたネコ</h2>
         <div class="screen">
-            <div class="card">
-                <h2>キューティーハニー</h2>
+            <div class="card overlaybtn" id="cat6">
+                <h2>キューティー<br>ハニー</h2>
                 <img src="./cats/cutyhoney.png" alt="cutyhoney">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat7">
                 <h2>さび</h2>
                 <img src="./cats/sabi.png" alt="sabi">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat8">
                 <h2>シルバー<br>バック</h2>
                 <img src="./cats/silverback.png" alt="silverback" class="side">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat9">
                 <h2>しろちび</h2>
                 <img src="./cats/sirotibi.png" alt="sirotibi" class="side">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat10">
                 <h2>ちびくろ</h2>
                 <img src="./cats/tibikuro.png" alt="tibikuro">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat11">
                 <h2>ちびわれ</h2>
                 <img src="./cats/chibiware.png" alt="chibiware">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat12">
                 <h2>つおいまる</h2>
                 <img src="./cats/tuoimaru.png" alt="tuoimaru" class="side">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat13">
                 <h2>ブラック<br>ジャック</h2>
                 <img src="./cats/blackjack.png" alt="blackjack" class="side">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat14">
                 <h2>ボサ</h2>
                 <img src="./cats/bosa.png" alt="bosa" class="side">
             </div>
-            <div class="card">
+            <div class="card overlaybtn" id="cat15">
                 <h2>ルナ</h2>
                 <img src="./cats/runa.png" alt="runa" class="side">
             </div>
 
         </div>
-
     </main>
     <nav>
         <div class="titleimage">
@@ -132,6 +215,7 @@
             © 2021 Techneko.
         </p>
     </footer>
+
 </body>
 
 </html>

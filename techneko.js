@@ -62,12 +62,27 @@ document.addEventListener('mousemove', function (e) {
     stalker.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
 });
 
-$(function() {
+$(function () {
     const hum = $('#hamburger, .close')
     const nav = $('.snav')
-    hum.on('click', function(){
-       nav.toggleClass('toggle');
+    hum.on('click', function () {
+        nav.toggleClass('toggle');
     });
- });
+});
 
- 
+$(function () {
+    const target = document.getElementsByClassName('overlaybtn');
+
+    for (let i = 0; i < target.length; i++) {
+        target[i].addEventListener('click', () => {
+
+            console.log(target[i].id);
+            $("." + target[i].id).fadeIn();
+
+        }, false);
+
+        $("." + target[i].id).click(function () {
+            $("." + target[i].id).fadeOut();
+        });
+    };
+});
