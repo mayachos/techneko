@@ -373,6 +373,9 @@ dl {
     border-radius: 10px;
     font-size: 1.3vw;
 }
+dt{
+    margin-right: 2vw;
+}
 
 dd a {
     color: #0E9594;
@@ -595,8 +598,8 @@ h1 {
 h2.neko {
     display: flex;
     font-size: 2vw;
-    color: #DC965A;
-    margin: 15px auto 10px;
+    color: #0E9594;
+    margin: 20px auto 10px;
     text-align: center;
 }
 
@@ -680,18 +683,23 @@ h2.neko {
 }
 
 .overlay h3{
-    font-size: 10vh;
+    font-size: 6vw;
     color: #FEFEFE;
-    margin: 18vh 0 5vh;
+    margin: 16vh 0 5vh;
 }
 
 .overlay p{
-    font-size: 4vh;
+    font-size: 2vw;
     margin-left: 50%;
+    height: 29vh;
     width: 43vw;
     color: #FEFEFE;
 }
 
+.overlay h4{
+    color: #FEFEFE;
+    font-size: 2vw;
+}
 
 .donation {
     display: flex;
@@ -837,6 +845,33 @@ a.thanks:active {
         height: 35vw;
         width: 35vw;
         margin-top: 2.3%;
+    }
+
+    .overlay img{
+        float: none;
+        width: 80%;
+        margin: 15vh 10vw 0;
+        border-radius: 2px;
+    }
+    
+    .overlay h3{
+        font-size: 6vw;
+        color: #FEFEFE;
+        margin: 3vh 10vw 0;
+    }
+    
+    .overlay p{
+        font-size: 3vw;
+        margin-left: 10vw;
+        height: 20vh;
+        width: 80%;
+        color: #FEFEFE;
+    }
+
+    .overlay h4{
+        font-size: 3vw;
+        display: inline-block;
+        margin-left: 10vw;
     }
 
     dl {
