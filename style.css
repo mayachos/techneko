@@ -442,7 +442,7 @@ h1 {
     font-size: 5.5vw;
     color: #DC965A;
     font-weight: bold;
-    margin: 120px auto 50px;
+    margin: 120px auto 40px;
 }
 
 .col {
@@ -596,9 +596,15 @@ h1 {
     background: #F5F9E9;
 }
 
+p.c{
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 5vh;
+}
+
 h2.neko {
     display: flex;
-    font-size: 2vw;
+    font-size: 3.2vw;
     color: #0E9594;
     margin: 20px auto 10px;
     text-align: center;
@@ -826,13 +832,7 @@ a.thanks:active {
     nav a {
         width: 6.4vw;
     }
-    .screen {
-        margin: 0px 5vw 10vw 13vw;
-    }
-    .screen .card {
-        padding: 5px;
-        height: 32vw;
-    }
+
     /* .screen .card:nth-child(3n+3){
         margin-right: 2.6%;
     } */
@@ -846,6 +846,12 @@ a.thanks:active {
         height: 35vw;
         width: 35vw;
         margin-top: 2.3%;
+        padding: 5px;
+    }
+
+    p.c{
+        font-size: 2vw;
+        margin-bottom: 2vh;
     }
 
     .overlay img{
@@ -1122,6 +1128,10 @@ a.thanks:active {
     }
     .donation {
         width: 66vw;
+    }
+
+    h2.neko {
+        font-size: 4vw;
     }
 
     .screen {
