@@ -642,6 +642,16 @@ h2.neko {
 .screen .card img {
     width: 55%;
     margin: 1vh auto 2vh;
+    cursor: pointer;
+}
+.screen .card img:hover{
+    position: relative;
+    bottom: 2vh;
+}
+
+.screen .card img:active{
+    position: relative;
+    bottom: 2vh;
 }
 
 .screen .card img.side {
