@@ -157,7 +157,7 @@ main {
     overflow: hidden;
     background: #F5F9E9;
     position: relative;
-    margin: 0px;
+    margin: 0 0 3vh;
     color: #493B2A;
     display: flex;
     flex-direction: column;
@@ -310,12 +310,11 @@ main.prepare {
 
 .col-6 h1.title {
     line-height: 1;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Kiwi Maru', serif;
     color: #DC965A;
-    font-weight: bold;
     margin-top: 5vw;
     margin-bottom: 0;
-    font-size: 6vw;
+    font-size: 5vw;
 }
 
 .col-6 h2{
@@ -424,15 +423,15 @@ footer {
     background-color: #DC965A;
     width: 100%;
     padding: 1vh 0;
-    z-index: 1;
+    z-index: -1;
 }
 
 footer p {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Kiwi Maru', serif;
     color: #F5F9E9;
     text-align: center;
     padding: 1vh;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 
 h1 {
@@ -923,6 +922,9 @@ a.thanks:active {
     nav .p-container {
         display: none;
     }
+    main{
+        margin: 0 0 2vh;
+    }
     #humberger {
         position: relative;
         display: block;
@@ -1050,6 +1052,7 @@ a.thanks:active {
     .col-6 h1.title {
         line-height: 1;
         margin-top: 5vw;
+        font-size: 7vw;
     }
     .col-6 p {
         width: 70vw;
@@ -1085,6 +1088,7 @@ a.thanks:active {
     h1 {
         margin: 55px auto 20px;
         font-size: 8vw;
+        width: 60vw;
     }
     .col {
         padding: 10px 20px 25px 20px;
