@@ -935,10 +935,10 @@ a.thanks:active {
     #hamburger span {
         position: absolute;
         top: 6.3vw;
-        right: 6.5vw;
+        right: 7.2vw;
         display: block;
         width: 5%;
-        height: 2px;
+        height: 2.2px;
         background-color: #DC965A;
         transform: translateY(-50%);
     }
@@ -947,9 +947,9 @@ a.thanks:active {
         display: block;
         position: absolute;
         top: 4.4vw;
-        right: 6.5vw;
+        right: 7.2vw;
         width: 5%;
-        height: 2px;
+        height: 2.2px;
         background-color: #DC965A;
     }
     #hamburger::after {
@@ -957,9 +957,9 @@ a.thanks:active {
         display: block;
         position: absolute;
         top: 7.7vw;
-        right: 6.5vw;
+        right: 7.2vw;
         width: 5%;
-        height: 2px;
+        height: 2.2px;
         background-color: #DC965A;
     }
     .snav {
