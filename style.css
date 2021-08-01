@@ -422,7 +422,7 @@ footer {
     bottom: 0;
     background-color: #DC965A;
     width: 100%;
-    padding: 1vh 0;
+    padding: 2vh 0;
     z-index: -1;
 }
 
@@ -431,7 +431,7 @@ footer p {
     color: #F5F9E9;
     text-align: center;
     padding: 1vh;
-    font-size: 1.4vw;
+    font-size: 1vw;
 }
 
 h1 {
@@ -1204,6 +1204,6 @@ a.thanks:active {
     }
 
     footer p{
-        font-size: 4vw;
+        font-size: 2vw;
     }
 }
