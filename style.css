@@ -901,6 +901,9 @@ a.thanks:active {
     dl {
         height: 24vh;
     }
+    footer{
+        padding: 1.5vh 0;
+    }
 }
 @media screen and (max-width: 1000px) {
     dl {
