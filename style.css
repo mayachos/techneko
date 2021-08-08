@@ -620,8 +620,8 @@ h2.neko {
     display: block;
     padding: 20px;
     margin-top: 4vh;
-    width: 44vh;
-    height: 44vh;
+    width: 42vh;
+    height: 42vh;
     background-color: #FEFEFE;
     border-style: dashed;
     border-width: 3px;
@@ -941,7 +941,7 @@ a.thanks:active {
         right: 7.2vw;
         display: block;
         width: 5%;
-        height: 2.2px;
+        height: 2px;
         background-color: #DC965A;
         transform: translateY(-50%);
     }
@@ -952,7 +952,7 @@ a.thanks:active {
         top: 4.4vw;
         right: 7.2vw;
         width: 5%;
-        height: 2.2px;
+        height: 2px;
         background-color: #DC965A;
     }
     #hamburger::after {
@@ -962,7 +962,7 @@ a.thanks:active {
         top: 7.7vw;
         right: 7.2vw;
         width: 5%;
-        height: 2.2px;
+        height: 2px;
         background-color: #DC965A;
     }
     .snav {
