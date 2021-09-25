@@ -359,6 +359,7 @@ main.prepare {
 .info {
     display: flex;
     margin: 0px 16vw;
+    text-align: left;
 }
 
 dl {
@@ -718,12 +719,22 @@ h2.neko {
 }
 
 .donation {
-    display: flex;
-    margin: 0 auto 6.1vw;
-    font-size: 1.6vw;
+    display: grid;
+    margin: 0vh auto 8vh;
+    font-size: 1.8vw;
     color: #493B2A;
     text-align: center;
-    width: 48vw;
+    width: 70vw;
+    background-color: #FEFEFE;
+    padding: 5vh;
+}
+.donation ol{
+    display: block;
+    list-style-type: none;
+    text-align: left;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin: 5vh auto;
 }
 
 .donation a:link {
@@ -1150,9 +1161,6 @@ a.thanks:active {
     }
     main.prepare p{
         font-size: 4vw;
-    }
-    .donation {
-        width: 66vw;
     }
 
     h2.neko {

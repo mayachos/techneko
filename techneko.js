@@ -52,15 +52,15 @@ $(window).on('load', function () {
 
 
 
-//マウスストーカー用のdivを取得
-const stalker = document.createElement('div');
-stalker.id = 'stalker'; //IDを付与
-document.body.appendChild(stalker); //bodyの最後に挿入
+// //マウスストーカー用のdivを取得
+// const stalker = document.createElement('div');
+// stalker.id = 'stalker'; //IDを付与
+// document.body.appendChild(stalker); //bodyの最後に挿入
 
-//上記のdivタグをマウスに追従させる処理
-document.addEventListener('mousemove', function (e) {
-    stalker.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
-});
+// //上記のdivタグをマウスに追従させる処理
+// document.addEventListener('mousemove', function (e) {
+//     stalker.style.transform = 'translate(' + e.clientX + 'px, ' + e.clientY + 'px)';
+// });
 
 $(function () {
     const hum = $('#hamburger, .close')
