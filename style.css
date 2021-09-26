@@ -724,9 +724,9 @@ h2.neko {
     font-size: 1.8vw;
     color: #493B2A;
     text-align: center;
-    width: 70vw;
+    width: 80vw;
     background-color: #FEFEFE;
-    padding: 5vh;
+    padding: 5vh 5vw;
 }
 .donation ol{
     display: block;
@@ -914,6 +914,9 @@ a.thanks:active {
     }
     footer{
         padding: 1.5vh 0;
+    }
+    .donation{
+        font-size: 1.6vh;
     }
 }
 @media screen and (max-width: 1000px) {
